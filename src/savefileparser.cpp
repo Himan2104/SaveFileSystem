@@ -80,19 +80,19 @@ class Save
                         break;
                     case 1: 
                         _level = std::stoi(newstr);
-                        std::cout << "Level : " << _level + 3<< std::endl;
+                        std::cout << "Level : " << _level << std::endl;
                         break;
                     case 2: 
                         _points = std::stoi(newstr);
-                        std::cout << "Points : " << _points + 4 << std::endl;
+                        std::cout << "Points : " << _points << std::endl;
                         break;
                     case 3: 
                         _hp = std::stof(newstr);
-                        std::cout << "HP : " << _hp + 120.54f << std::endl;
+                        std::cout << "HP : " << _hp << std::endl;
                         break;
                     case 4: 
                         _ammo = std::stoi(newstr);
-                        std::cout << "Ammo : " << _ammo + 300<< std::endl;
+                        std::cout << "Ammo : " << _ammo << std::endl;
                         break;
                     default:
                         break;
