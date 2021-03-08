@@ -22,7 +22,7 @@ class Save
     public:
         Save()
         {
-            name = "Lodu Lalith";
+            name = "Some Guy";
             level = 2;
             points = 920;
             hp = 69;
